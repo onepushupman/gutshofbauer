@@ -1,0 +1,66 @@
+/* 'Crimson Text', serif; */
+
+h1 {
+    font-family: 'Crimson Text', serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+svg {
+    transition: all 0.2s ease-in-out;
+}
+
+svg:hover {
+    transform: scale(1.1);
+}
+
+.navbar-brand {
+    font-family: 'Crimson Text', serif;
+}
+
+.cover_picture {
+    background-image: url("https://images.unsplash.com/photo-1568239904114-b5fbd1a264ed?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 30% 30%;
+    height: 70vh;
+}
+
+ /* ?Maybe remove -----------
+.cover_text {
+    padding-top: 88%; 
+}
+*/
+
+.footer_copyright {
+    background-color: rgb(31, 31, 31);
+}
+
+#mapid { height: 480px; }
+
+.card {
+    transition: all 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.1);  
+}
+
+.card_img {
+    position: absolute;
+    left: 0px;
+    top: 50px;
+    z-index: -1;
+}
+
+.icon_card {
+    font-size: 64px;
+}
